@@ -16,7 +16,7 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-const projectData = require("../Assignments/modules/projects");
+const projectData = require("./modules/projects");
 
 app.get("/", (req, res) => {
   res.send("Assignment 1: Ileperuma Achchige Dineth Damishka Gunarathna - 130673247");
